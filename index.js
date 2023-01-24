@@ -1,7 +1,13 @@
+const addFn = require("./add.js");
+
 console.log("Hello from index.js");
+console.log(addFn(3, 4));
+console.log(addFn(1, 2));
 
-const add = (a,b)=>{
-    return a + b;
-}
+const superHero = require("./moduleCaching.js");
+console.log(superHero.getName());
+superHero.setName("SuperMan");
+console.log(superHero.getName());
 
-console.log(add(3,4));
+const newSuperHero = require("./moduleCaching.js");
+console.log(newSuperHero.getName());
