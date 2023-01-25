@@ -1,5 +1,12 @@
 const add = (a, b) => {
-    return a + b;
-}
+  return a + b;
+};
 
-export default add;
+const sub = (a, b) => {
+  return a - b;
+};
+
+export default {
+  add,
+  sub,
+};
