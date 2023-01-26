@@ -13,3 +13,4 @@ emitter.on("order-pizza", (size) => {
 });
 
 emitter.emit("order-pizza", "large", "mushrooms");
+emitter.emit("order-pizza", "small", "onion");
